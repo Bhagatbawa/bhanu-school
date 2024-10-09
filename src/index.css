@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar {display:none;}
+body{
+    font-family: 'Archivo';
+}
+@font-face {
+    font-family: 'Archivo';
+    src: url('/assets/ARCHIVO-REGULAR.TTF') format('truetype');
+         
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/ARCHIVO-MEDIUM.TTF') format('truetype');
+         
+    font-weight: 500;
+    font-style: medium;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/ARCHIVO-SEMIBOLD.TTF') format('truetype');
+         
+    font-weight: 600;
+    font-style: semibold;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/Archivo-Light.ttf') format('truetype');
+         
+    font-weight: 200;
+    font-style: light;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/Archivo-ExtraLightItalic.ttf') format('truetype');
+         
+    font-weight: 100;
+    font-style: thin;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/Archivo-Bold.ttf') format('truetype');
+         
+    font-weight: 700;
+    font-style: bold;
+  }
+
+  @font-face {
+    font-family: 'EditorialNew';
+    src: url('/assets/PPEditorialNew-Regular.otf') format('opentype');
+         
+    font-weight: 00;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'EditorialNew';
+    src: url('/assets/PPEditorialNew-Ultrabold.otf') format('opentype');
+         
+    font-weight: 500 600 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'EditorialNew';
+    src: url('/assets/PPEditorialNew-UltralightItalic.otf') format('opentype');
+         
+    font-weight: 100;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'EditorialNew';
+    src: url('/assets/PPEditorialNew-Ultralight.otf') format('opentype');
+         
+    font-weight: 200;
+    font-style: normal;
+  }
